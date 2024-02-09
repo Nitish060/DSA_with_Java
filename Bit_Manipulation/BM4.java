@@ -1,0 +1,17 @@
+import java.util.*;
+public class BM4 {
+    public static int set_ith_bit(int n, int i){
+        int bitMask = 1<<i;
+        return n|bitMask;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the nummber ");
+        int n = sc.nextInt();
+        System.out.println("Enter the position of digit you want to set ");
+        int i = sc.nextInt();
+        System.out.println("The new number after setting " + i + " bit");
+        int a = set_ith_bit(n, i);
+        System.out.println(a);
+    }
+}
