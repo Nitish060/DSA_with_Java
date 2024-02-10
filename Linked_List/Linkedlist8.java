@@ -1,6 +1,6 @@
 /* Zig-Zag Linked List */
 
-public class Linledlist8 {
+public class Linkedlist8 {
     public static class Node
     {
         int data;
@@ -81,7 +81,7 @@ public class Linledlist8 {
     }
 
     public static void main(String[] args) {
-        Linledlist8 ll = new Linledlist8();
+        Linkedlist8 ll = new Linkedlist8();
         ll.addfirst(6);
         ll.addfirst(5);
         ll.addfirst(4);

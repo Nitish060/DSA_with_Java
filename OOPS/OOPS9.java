@@ -2,7 +2,7 @@
 
 public class OOPS9 {
     public static void main(String[] args) {
-        Basic_Java17 calc = new Basic_Java17();
+        Calculator calc = new Calculator();
         System.out.println(calc.sum(1,2));
         System.out.println(calc.sum((float)1.5,(float)2.5));
         System.out.println(calc.sum(1,2,3));

@@ -90,7 +90,7 @@ public class Linkedlist1 {
             return val;
     }
 
-    //rremove node at tail
+    //remove node at tail
     public int removeLast()
     {
         if(size==0)
