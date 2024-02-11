@@ -24,5 +24,6 @@ public class Array2 {
         for(int i = 0; i < marks.length; i++){
             System.out.println(marks[i]);
         }
+        sc.close();
     }
 }

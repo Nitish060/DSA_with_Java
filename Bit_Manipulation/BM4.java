@@ -13,5 +13,6 @@ public class BM4 {
         System.out.println("The new number after setting " + i + " bit");
         int a = set_ith_bit(n, i);
         System.out.println(a);
+        sc.close();
     }
 }

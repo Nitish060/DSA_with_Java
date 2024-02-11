@@ -21,6 +21,7 @@ public class Basic_Java12 {
         int n = sc.nextInt();
         System.out.println("Converted number from decimal to binary is ");
         decTobin(n);
+        sc.close();
     }
 }
 

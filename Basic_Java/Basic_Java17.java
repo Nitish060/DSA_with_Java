@@ -23,6 +23,6 @@ public class Basic_Java17 {
             default : System.out.println("NOT APPPLICABLE");
         
         }
-
+        sc.close();
     }
 }

@@ -22,5 +22,6 @@ public class BM9 {
         {
             System.out.println("No, number is not a power of 2");
         }
+        sc.close();
     }
 }

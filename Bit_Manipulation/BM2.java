@@ -16,5 +16,6 @@ public class BM2 {
         System.out.println("Enter the number ");
         int n = sc.nextInt();
         odd_even(n);
+        sc.close();
     }
 }

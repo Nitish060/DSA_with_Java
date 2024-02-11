@@ -27,5 +27,6 @@ public class BM11
         int n = sc.nextInt();
         int ans = fast_expo(a, n);
         System.out.println("The value of " + a + " ^ " + n + " is " + ans);
+        sc.close();
     }
 }

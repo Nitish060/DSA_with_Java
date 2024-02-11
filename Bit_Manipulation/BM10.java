@@ -25,5 +25,6 @@ public class BM10 {
         int n = sc.nextInt();
         int c = count_setBits(n);
         System.out.println("Number of set bits in number " + n + " is " + c);
+        sc.close();
     }
 }

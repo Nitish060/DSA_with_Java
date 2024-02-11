@@ -24,5 +24,6 @@ public class BM6 {
         System.out.println("The new number after updating " + i + "th bit");
         int a = update_ith_bit(n, i, new_bit);
         System.out.println(a);
+        sc.close();
     }
 }

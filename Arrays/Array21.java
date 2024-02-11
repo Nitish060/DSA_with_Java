@@ -31,5 +31,6 @@ public class Array21{
         System.out.println("Enter the element you want to search ");
         int key = sc.nextInt();
         Staircase_search(matrix, key);
+        sc.close();
     }
 }

@@ -25,5 +25,6 @@ public class Basic_Java3 {
                 System.out.println(n + " is not Prime");
             }
         }
+        sc.close();
     }
 }

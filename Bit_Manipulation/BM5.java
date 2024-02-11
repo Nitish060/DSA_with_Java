@@ -15,5 +15,6 @@ public class BM5 {
         System.out.println("The new number after clearing " + i + "th bit");
         int a = clear_ith_bit(n, i);
         System.out.println(a);
+        sc.close();
     }
 }

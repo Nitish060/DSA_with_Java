@@ -20,5 +20,6 @@ public class BM8 {
         int j = sc.nextInt();
         int nm = clear_Ir_bits(n, i, j);
         System.out.println("Number after clearing range from "+ i + " to "+ j + " is "+ nm);
+        sc.close();
     }
 }

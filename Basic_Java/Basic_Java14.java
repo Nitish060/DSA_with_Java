@@ -12,5 +12,6 @@ public class Basic_Java14{
             }
         System.out.println(n);
         }while(true);
+        sc.close();
     }
 }

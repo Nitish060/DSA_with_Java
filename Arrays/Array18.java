@@ -23,7 +23,7 @@ public class Array18 {
     public static void main(String args [])
     {
         int matrix[][] = new int[3][3];
-        int n = matrix.length, m = matrix[0].length, key;
+        int n = matrix.length, m = matrix[0].length;
         int largest = Integer.MIN_VALUE;
         int smallest = Integer.MAX_VALUE;
         System.out.println("Enter the elements of matrix ");
@@ -58,5 +58,6 @@ public class Array18 {
         }
         System.out.println("Largest element is " + largest);
         System.out.println("Smallest element is " + smallest);
+        sc.close();
     }
 }

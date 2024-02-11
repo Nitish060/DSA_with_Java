@@ -16,8 +16,8 @@ public class BM7 {
     int i = sc.nextInt();
     int a = clear_I_bits(n, i);
     System.out.print("Number after clearing last "+ i + " bits is : "+ a);
-
+    sc.close();
    }
     
-    }
+}
 

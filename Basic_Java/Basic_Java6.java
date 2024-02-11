@@ -8,6 +8,7 @@ public class Basic_Java6 {
     Scanner sc = new Scanner(System.in);
     System.out.println("Please enter the coolege id ");
     cid = sc.nextInt();
+    sc.close();
    }
    void getter()
    {

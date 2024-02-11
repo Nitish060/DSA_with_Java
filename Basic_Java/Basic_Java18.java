@@ -9,6 +9,7 @@ public class Basic_Java18 {
         Area a1 = new Area();
         float r = a1.ar(radius);
         System.out.println("Area of the circle is " + r);
+        sc.close();
     }
 }
 

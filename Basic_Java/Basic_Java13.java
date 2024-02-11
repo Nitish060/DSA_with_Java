@@ -26,5 +26,6 @@ public class Basic_Java13 {
         int n = sc.nextInt();
         int r = sc.nextInt();
         System.out.println("Binomial coefficient is " + binCoeff(n, r));
+        sc.close();
     }
 }

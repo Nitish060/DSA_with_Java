@@ -24,5 +24,6 @@ public class Array3 {
        else{
         System.out.println("Key is at " + index);
        }
+       sc.close();
     }
 }

@@ -13,5 +13,6 @@ public class Basic_Java10 {
             count++;
         }
         System.out.println("Sum upto " + n + " is " +sum);
+        sc.close();
     }
 }

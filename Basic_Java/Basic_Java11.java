@@ -21,5 +21,6 @@ public class Basic_Java11 {
        long  n = sc.nextInt();
         System.out.println("Converted number from binary to decimal is ");
         binTodec(n);
+        sc.close();
     }
 }

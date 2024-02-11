@@ -31,5 +31,6 @@ public class Basic_Java4 {
         System.out.println("Enter the limit :");
         int n = sc.nextInt();
         primes_in_range(n);
+        sc.close();
     }
 }

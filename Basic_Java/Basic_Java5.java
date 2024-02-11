@@ -13,8 +13,7 @@ public class Basic_Java5 {
     rev = rev*10 + i;
     n = n/10;
     }
-        System.out.println("Reversed number is " +rev);
-    
-     
+        System.out.println("Reversed of "+temp+" number is " +rev);
+        sc.close();
     }
 }

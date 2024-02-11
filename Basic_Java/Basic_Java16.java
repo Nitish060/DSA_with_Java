@@ -15,5 +15,6 @@ public class Basic_Java16 {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

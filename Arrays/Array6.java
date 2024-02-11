@@ -1,6 +1,5 @@
 /* REVERSE OF AN ARRAY */
 
-import java.util.*;
 public class Array6 {
     
     public static void reverse(int numbers[]){

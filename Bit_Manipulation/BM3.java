@@ -1,6 +1,5 @@
 /* Get ith bit */
 
-import java.util.*;
 import java.util.Scanner;
 public class BM3 {
 
@@ -22,5 +21,6 @@ public class BM3 {
         System.out.println("The digit at position " + i + " is ");
         int a = get_ith_bit(n, i);
         System.out.println(a);
+        sc.close();
     }
 }

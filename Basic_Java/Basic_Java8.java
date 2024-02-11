@@ -12,7 +12,7 @@ public class Basic_Java8 {
         else{
             System.out.println( "ODD NUMBER");
         }
-
+        sc.close();
     }
     
 }

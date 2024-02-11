@@ -11,6 +11,8 @@ public class Basic_Java15 {
                 continue;
             }
         System.out.println(n);
+        sc.close();
         }while(true);
+        
     }
 }

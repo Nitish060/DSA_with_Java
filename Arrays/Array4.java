@@ -23,5 +23,6 @@ public class Array4 {
             number[i] = sc.nextInt();
         }
         System.out.println("Largest value of the array is " + get_largest(number));
+        sc.close();
     }
 }

@@ -24,5 +24,6 @@ public class Array5 {
         System.out.println("Enter your key: ");
         int key = sc.nextInt();
         System.out.println("Key "+ key + " is at index " + binary_search(numbers, key));
+        sc.close();
     }
 }
