@@ -9,7 +9,7 @@ public class Recursion2 {
         n = sc.nextInt();
         int r = factorial(n);
         System.out.println("Factorial of number "+n+" is "+r);
-
+        sc.close();
     }
 
     public static int factorial(int n)
@@ -18,8 +18,6 @@ public class Recursion2 {
         {
             return 1;
         }
-
-        int fnm1 = factorial(n-1);
         int fn = n*factorial(n-1);
         return fn;
     }

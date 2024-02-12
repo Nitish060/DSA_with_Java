@@ -7,6 +7,7 @@ public class Recursion11 {
      System.out.println("Enter the string ");
      String str = sc.next();
      remove_Duplicates(str, 0,new StringBuilder(""), new boolean[26]);
+     sc.close();
     }
 
     public static void remove_Duplicates(String str, int idx, StringBuilder newstr, boolean map[])

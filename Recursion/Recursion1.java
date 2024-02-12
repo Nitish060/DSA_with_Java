@@ -21,5 +21,6 @@ public class Recursion1 {
         n = sc.nextInt();
         System.out.println("Numbers are");
         printDec(n);
+        sc.close();
     }
 }

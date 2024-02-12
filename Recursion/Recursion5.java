@@ -24,6 +24,7 @@ public class Recursion5 {
         {
             System.out.println("Array is not sorted");
         }
+        sc.close();
     }
 
     public static boolean is_sorted(int arr[], int i)

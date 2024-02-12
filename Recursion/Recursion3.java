@@ -9,6 +9,7 @@ public class Recursion3 {
         n = sc.nextInt();
         int r = calc_sum(n);
         System.out.println("Sum of first "+n+" number is "+r);
+        sc.close();
     }
 
     public static int calc_sum(int n)

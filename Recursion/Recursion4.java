@@ -9,6 +9,7 @@ public class Recursion4 {
         n = sc.nextInt();
         int r = fibonacci(n);
         System.out.println("Fibonacci term is "+r);
+        sc.close();
     }
 
     public static int fibonacci(int n)
