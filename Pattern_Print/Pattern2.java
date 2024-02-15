@@ -21,5 +21,6 @@ public class Pattern2 {
         int totrows = sc.nextInt();
         int totcolms = sc.nextInt();
         hollow_rectangle(totrows, totcolms);
+        sc.close();
     }
 }

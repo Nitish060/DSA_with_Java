@@ -14,7 +14,7 @@ public class Pattern4 {
        Scanner sc = new Scanner(System.in);
        System.out.println("Enter your limit: ");
        int n = sc.nextInt();
-        inverted_half_pyramid_withNumbers(n);
-
+       inverted_half_pyramid_withNumbers(n);
+       sc.close();
     }
 }

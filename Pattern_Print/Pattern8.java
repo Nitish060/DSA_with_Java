@@ -19,5 +19,6 @@ public class Pattern8 {
         System.out.println("Enter your limit");
         int n = sc.nextInt();
         solid_rohmbus(n);
+        sc.close();
     }
 }

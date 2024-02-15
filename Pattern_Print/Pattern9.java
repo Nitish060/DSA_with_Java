@@ -24,5 +24,6 @@ public class Pattern9 {
         System.out.println("Enter the limit: ");
         int n = sc.nextInt();
         hollow_rhombus(n);
+        sc.close();
     }
 }

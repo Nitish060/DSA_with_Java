@@ -36,5 +36,6 @@ public class Pattern7 {
         System.out.println("Enter your limit: ");
         int n = sc.nextInt();
         butterfly(n);
+        sc.close();
     }
 }

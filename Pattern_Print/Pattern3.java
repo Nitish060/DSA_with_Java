@@ -19,5 +19,6 @@ public class Pattern3 {
         System.out.println("Enter the limit: ");
         int n = sc.nextInt();
         inverted_rotated_half_pyramid(n);
+        sc.close();
     }
 }
