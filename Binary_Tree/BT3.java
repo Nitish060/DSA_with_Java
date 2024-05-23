@@ -18,7 +18,7 @@ public class BT3 {
     static class BinaryTree
     {
         static int idx = -1;
-        public Node buildTree(int nodes[]) //function for building trees
+        public static Node buildTree(int nodes[]) //function for building trees
         {
             idx++;
             if(nodes[idx]==-1)
@@ -32,7 +32,7 @@ public class BT3 {
             return newNode;
         }
 
-        public void inorder(Node root)//function for inorder traversal
+        public static void inorder(Node root)//function for inorder traversal
         {
             if(root==null)
             {
@@ -46,8 +46,8 @@ public class BT3 {
 
     public static void main(String[] args) {
         int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1}; //-1 represents null node
-        BinaryTree tree = new BinaryTree();
-        Node root = tree.buildTree(nodes);
-        tree.inorder(root);
+        //BinaryTree tree = new BinaryTree();
+        Node root = BinaryTree.buildTree(nodes);
+        BinaryTree.inorder(root);
     }
 }

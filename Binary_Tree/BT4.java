@@ -19,7 +19,7 @@ public class BT4 {
     static class BinaryTree
     {
         static int idx = -1;
-        public Node buildTree(int nodes[]) //function for building trees
+        public static Node buildTree(int nodes[]) //function for building trees
         {
             idx++;
             if(nodes[idx]==-1)
@@ -33,7 +33,7 @@ public class BT4 {
             return newNode;
         }
 
-        public void postorder(Node root)//function for postorder traversal
+        public static void postorder(Node root)//function for postorder traversal
         {
             if(root==null)
             {
@@ -47,8 +47,8 @@ public class BT4 {
 
     public static void main(String[] args) {
         int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1}; //-1 represents null node
-        BinaryTree tree = new BinaryTree();
-        Node root = tree.buildTree(nodes);
-        tree.postorder(root);
+        //BinaryTree tree = new BinaryTree();
+        Node root = BinaryTree.buildTree(nodes);
+        BinaryTree.postorder(root);
     }
 }

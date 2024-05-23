@@ -20,7 +20,7 @@ public class BT5 {
     static class BinaryTree
     {
         static int idx = -1;
-        public Node buildTree(int nodes[]) //function for building trees
+        public static Node buildTree(int nodes[]) //function for building trees
         {
             idx++;
             if(nodes[idx]==-1)
@@ -34,7 +34,7 @@ public class BT5 {
             return newNode;
         }
 
-        public void levelOrder(Node root)//function for level order traversal
+        public static void levelOrder(Node root)//function for level order traversal
         {
             if(root==null)
                 return;
@@ -70,8 +70,8 @@ public class BT5 {
 
     public static void main(String[] args) {
         int nodes[] = {1,2,4,-1,-1,5,-1,-1,3,-1,6,-1,-1}; //-1 represents null node
-        BinaryTree tree = new BinaryTree();
-        Node root = tree.buildTree(nodes);
-        tree.levelOrder(root);
+        //BinaryTree tree = new BinaryTree();
+        Node root = BinaryTree.buildTree(nodes);
+        BinaryTree.levelOrder(root);
     }
 }
