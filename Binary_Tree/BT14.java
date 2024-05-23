@@ -48,7 +48,7 @@ public class BT14 {
             return leftDist+1;
     }
 
-    public static int MinDist(Node root, int n1, int n2)
+    public static int MinDist(Node root, int n1, int n2)//function for calculating minimum distance between nodes
     {
         Node lca = LCA(root, n1, n2);
         int dist1 = lcaDist(lca, n1);
