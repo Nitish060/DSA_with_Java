@@ -48,7 +48,7 @@ public class BST10 {
 
         if(root.data<=leftInfo.max || root.data>=rightInfo.min) //it checks if node is following the valid BST
         {
-            return new Info(true, size, min, max);
+            return new Info(false, size, min, max);
         }
 
         if(leftInfo.isBST && rightInfo.isBST) //it checks if left subtree and right subtree is following the the valid BST
